@@ -1,0 +1,77 @@
+.delivery-form{
+    height: 70vh;
+    overflow-y: scroll;
+    width: 40%;
+    border: 1px solid var( --dark-lazur);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var( --light-yellow);
+    color: var(--dark-lazur);
+    font-size: var(--text-regular);
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.form-input{
+    width: 100%;
+    margin: 0rem auto;
+}
+
+.del-form-input{
+    display: block;
+    margin-right: auto;
+}
+.form-input > input{
+    width: 100%;
+    display: block;
+    margin: 0rem auto;
+    color: var(--dark-lazur);
+    font-size: var(--text-regular);
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+}
+
+
+.form-input > div.input-false{
+    width: 100%;
+    visibility: visible;
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
+      sans-serif;
+    font-size: var(--text-xsmall);
+    color: rgb(246, 78, 78);
+    margin: .2rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .input-false > p{
+    padding: 0 5px;
+    margin: 0;
+  }
+  .input-false > img{
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: .1rem;
+  }
+.form-input > div.input-true {
+    visibility: hidden;
+  }
+
+.form-input > input.false{
+    background-color: rgb(246, 164, 164);
+}
+
+@media only screen and (max-width: 768px) {
+    .delivery-form{
+        width: 45%;
+        padding: 1rem 1rem;
+        gap: .5rem;
+        font-size: var(--text-small);
+    }
+}

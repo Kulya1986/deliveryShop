@@ -11,7 +11,7 @@ class ProdList extends Component{
     }
 
     componentDidMount(){
-        fetch('http://localhost:3000/shop-products', {
+        fetch('https://delivery-shop-server.onrender.com/shop-products', {
               method: "POST",
               headers:{'Content-Type':'application/json'},
               body: JSON.stringify(

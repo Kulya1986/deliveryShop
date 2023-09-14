@@ -79,7 +79,7 @@ onOrderSubmit = () =>{
         && this.state.customerInfo.customer_address!==''
         && this.state.shoppingCart.length!==0)
         {
-          fetch('http://localhost:3000/submit-order', {
+          fetch('https://delivery-shop-server.onrender.com/submit-order', {
             method: "POST",
             headers:{'Content-Type':'application/json'},
             body: JSON.stringify(
@@ -113,7 +113,7 @@ onOrderSubmit = () =>{
 onAddToCart = (prod_id, prod_name, prod_price,prod_image, prod_quantity) => {
   
   //make fetch to BD with prod_id to get shop_id and call shopInCartChange(shop_id)
-  const fetch_url = 'http://localhost:3000/shop-in-cart/'+prod_id;
+  const fetch_url = 'https://delivery-shop-server.onrender.com/shop-in-cart/'+prod_id;
   fetch(fetch_url,{
       method: "GET",
       headers:{'Content-Type':'application/json'}

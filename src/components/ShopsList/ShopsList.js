@@ -11,7 +11,7 @@ class ShopsList extends Component {
     }
 
     componentDidMount(){
-        fetch('http://localhost:3000/shops',{
+        fetch('https://delivery-shop-server.onrender.com/shops',{
             method: "GET",
             headers:{'Content-Type':'application/json'}
         }).then(response => response.json())

@@ -76,7 +76,7 @@ class History extends Component{
         if (this.state.validFieldHistory.validEmail 
         && this.state.validFieldHistory.validPhone)
             {
-                fetch('http://localhost:3000/orders-history', {
+                fetch('https://delivery-shop-server.onrender.com/orders-history', {
                     method: "POST",
                     headers:{'Content-Type':'application/json'},
                     body: JSON.stringify(

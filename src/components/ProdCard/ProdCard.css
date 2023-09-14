@@ -1,5 +1,4 @@
 .product{
-    /* width: 18rem; */
     border: 1px solid var( --dark-lazur);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -24,8 +23,7 @@
 }
 
 .product-price{
-    font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
-      sans-serif;
+    font-family: 'Sophista Belucy Regular', 'Helvetica Neue', sans-serif;
     font-size: var(--text-regular);
     color: var(--dark-lazur);
     text-align: right;

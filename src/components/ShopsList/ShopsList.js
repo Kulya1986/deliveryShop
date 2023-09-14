@@ -75,8 +75,7 @@ class ShopsList extends Component {
                                 );
                             }   
                             })
-                    }   
-                    
+                    }       
                 </div>
             );   
         }

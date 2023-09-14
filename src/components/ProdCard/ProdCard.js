@@ -22,7 +22,6 @@ const ProdCard = ({ prod_name, prod_price,prod_id,prod_image, onAddToCart}) => {
                 <Icon  icon="shopping-cart" size={24}/>
             </button>
         </div>
-
     </article>
  );
 }

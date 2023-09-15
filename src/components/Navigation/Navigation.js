@@ -11,7 +11,12 @@ const Navigation = ({onNavigationTabClick}) => {
     return (
     <Navbar style={{backgroundColor: '#baccaa', color: '#01233e', width:'100%'}}>
         <Navbar.Group align={Alignment.LEFT}>
-        <Navbar.Heading className='nav-text-style'>DeliveryShop</Navbar.Heading>
+        <Navbar.Heading className='nav-text-style'>
+            <div style={{display:'flex', flexWrap:'nowrap', alignItems:'center'}}>
+                <span>DeliveryShop</span>
+                <img src='/images/delivery.png' alt='' style={{width:'36px'}}/>
+            </div>    
+        </Navbar.Heading>
         <Navbar.Divider />
         <Button 
             className="bp4-minimal nav-text-style" 

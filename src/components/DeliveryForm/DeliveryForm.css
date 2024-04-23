@@ -1,6 +1,7 @@
 .delivery-form{
     height: 70vh;
-    overflow-y: scroll;
+    min-height: 416px;
+    /* overflow-y: scroll; */
     width: 40%;
     border: 1px solid var( --dark-lazur);
     border-radius: 5px;

@@ -3,11 +3,12 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var( --light-yellow);
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
     display: grid;
-    grid-template-columns:  repeat(3, minmax(15rem, 1fr));
-    gap: .5rem;
-    overflow: scroll;
+    grid-template-columns:  repeat(3, minmax(13rem, 1fr));
+    gap: 1rem;
+    overflow: auto scroll ;
+    width: 78%;
     justify-items: center;
     align-items: center;
     font-size: var(--text-large);
@@ -17,14 +18,14 @@
 
 @media only screen and (max-width: 992px) {
     .products-list{
-        grid-template-columns:  repeat(2, minmax(15rem, 1fr));
-        padding: 1rem .5rem;
+        grid-template-columns:  repeat(2, minmax(13rem, 1fr));
+        padding: 1rem 1rem;
     }
     
 }
 
 @media only screen and (max-width: 600px) {
     .products-list{
-        grid-template-columns:  repeat(1, minmax(15rem, 1fr));
+        grid-template-columns:  repeat(1, minmax(13rem, 1fr));
     }
 }

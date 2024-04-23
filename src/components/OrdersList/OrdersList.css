@@ -1,6 +1,6 @@
 .orders-list{
     width: 96%;
-    max-height: 41vh;
+    height: 100%;
     border: 1px solid var( --dark-lazur);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -8,10 +8,10 @@
     color: var(--dark-lazur);
     font-size: var(--text-large);
     padding: .5rem .5rem;
-    overflow: scroll;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin: auto;
+    margin: auto auto 1rem auto ;
 }

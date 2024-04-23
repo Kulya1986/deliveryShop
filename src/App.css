@@ -7,10 +7,10 @@
 
   :root{
       --text-xlarge: 2.6rem;
-      --text-large: 1.6rem;
+      --text-large: 1.5rem;
       --text-regular: 1.2rem;
       --text-small: 1rem;
-      --text-xsmall: .7rem;
+      --text-xsmall: .5rem;
       --light-yellow: #baccaa;
       --light-green: #a7c49f;
       --green: #419961;
@@ -27,7 +27,7 @@
       -o-background-size: cover;
       background-size: cover; 
       height: 100%; 
-      width: 100vw;
+      width: 100%;
       min-width: 590px;
   }
 
@@ -37,9 +37,7 @@
     min-height: 100%;
   }
 
-  footer {
-    margin-top: auto;
-  }
+  
 
 
   

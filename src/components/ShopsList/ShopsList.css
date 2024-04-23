@@ -10,9 +10,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var( --light-yellow);
     height: 100%;
-    padding: 1.8rem;
+    padding: 1.2rem 2rem;
     margin-right: 1rem;
-    overflow-y: scroll;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
 }
 
 .shop-button{
@@ -25,8 +26,8 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: var(--light-yellow);
     text-align: center;
-    padding: .8rem 1rem;
-    width: 12rem;
+    padding: .8rem;
+    width: 11rem;
 }
 
 .zoomed{
@@ -34,13 +35,13 @@
 }
 
 .zoomed:hover{
-    transform: scale(1.15);
+    transform: scale(1.1);
     color:antiquewhite;
 }
 
 .shop-button-selected{
     border-width: 2px;
-    transform: scale(1.15);
+    transform: scale(1.1);
     box-shadow: rgba(0, 0, 0, 0.8) 0px 10px 20px;
 }
 
@@ -66,7 +67,7 @@
 
     .shop-button{
         font-size: var(--text-large);
-        padding: .6rem .8rem;
+        padding: .6rem;
         width: 10rem;
     }
 }

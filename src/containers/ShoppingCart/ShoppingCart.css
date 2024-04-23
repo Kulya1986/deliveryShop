@@ -2,12 +2,12 @@
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-   
 }
 
 .shopping-cart{
     padding: 1rem 1rem;
-    height: 86%;
+    height: 86vh;
+    min-height: 540px;
     display: flex;
     flex-wrap: wrap;
 }

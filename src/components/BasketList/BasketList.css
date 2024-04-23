@@ -1,5 +1,6 @@
 .basket-list{
     height: 70vh;
+    min-height: 416px;
     width: 60%;
     min-width: 16rem;
     border: 1px solid var( --dark-lazur);
@@ -10,7 +11,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: .5rem;
-    overflow: scroll;
+    overflow-y: scroll;
     justify-items: center;
     align-items: center;
     margin: .5rem;

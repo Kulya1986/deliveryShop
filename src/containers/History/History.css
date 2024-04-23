@@ -1,14 +1,26 @@
 .orders-history{
     padding: 1rem 1rem;
-    height: 84%;
+    /* height: 84%; */
+    min-height: 528px;
+    height: 84vh;
     display: flex;
     flex-direction: column;
 }
 
-.orders-history-form-container, .orders-history-container{
+.orders-history-container{
     padding-bottom: 1rem;
+    height: 50%;
 }
 
 .orders-history-form-container{
-    min-height: max-content;
+    min-height: 250px;
+    height: 50%;
+    margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 768px){
+    .orders-history-form-container{
+        min-height: 190px;
+    }
+  }
+  

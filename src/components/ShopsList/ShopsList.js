@@ -24,6 +24,14 @@ class ShopsList extends Component {
     }
 
     render(){
+        if (this.state.shopsList.length===0){
+            return(
+                <div className='shops'>
+                    <p>Loading shops...</p>
+                </div>
+            );    
+        }
+        else 
         if (this.props.activeShop === 0){
             return(
                     <div className='shops'>

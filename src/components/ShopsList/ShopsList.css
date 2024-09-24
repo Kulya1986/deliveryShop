@@ -16,6 +16,11 @@
     overflow-x: hidden; */
 }
 
+.shops > p{
+    font-size: var(--text-large);
+    color: var(--dark-lazur);
+}
+
 .shop-button{
     font-family: 'Sophista Belucy Regular', 'Helvetica Neue',
       sans-serif;
